@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column-reverse;
+}
+#one {
+  background-color: rgba(46, 204, 113, 0.7);
+  flex: 1;
+}
+#two {
+  background-color: rgba(52, 152, 219, 0.7);
+  flex: 1;
+}
+#three {
+  background-color: rgba(155, 89, 182, 0.7);
+  flex: 1;
+}
+
+/* (Display: flex)-In order to use flexBox you need to have a flex contianer.For this example our body is our flex contianer*/
+/* (Flex: 1)- Flex values are like fractions splits your flex container into parts 
+/* (Flex Direction:column(horizontal) or row(vertical) changes the direction in which your div's are aligned. 
+You can also add the word reverse after and it will reverse the columns/rows (column-reverse) */
